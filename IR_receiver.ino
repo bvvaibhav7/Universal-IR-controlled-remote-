@@ -1,7 +1,5 @@
-/* comboDump.ino Example sketch for IRLib2
- *  Illustrate how to create a custom decoder using only the protocols
- *  you wish to use.
- */
+//Created by Venkata Vaibhav Bhagavatula on 9/10/2019
+
 #include <IRLibDecodeBase.h> // First include the decode base
 #include <IRLib_P01_NEC.h>   // Now include only the protocols you wish
 #include <IRLib_P02_Sony.h>  // to actually use. The lowest numbered
